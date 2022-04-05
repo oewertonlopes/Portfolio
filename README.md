@@ -13,4 +13,4 @@ Desafio criado para o site <a href="https://www.frontendmentor.io/"> Front End M
 Terceiro item do meu portfólio:
 
 Desafio criado para o site <a href="https://www.frontendmentor.io/"> Front End Mentor </a>
-<a href="https://oewertonlopes.github.io/Portfolio/qr-code-component-main/index.html"> O resultado foi este aqui.</a>.
+<a href="https://oewertonlopes.github.io/Portfolio/3-column-preview-card-component-main/index.html"> O resultado foi este aqui.</a>.
