@@ -89,7 +89,7 @@ body {
   mix-blend-mode: multiply;
 }
 
-@media (min-width: 375px) {
+@media (min-width:375px) and (max-width:850px) {
 
   body {
     height: 100vh;
