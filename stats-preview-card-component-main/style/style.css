@@ -21,7 +21,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   height: 60vh;
-  width: 70vw;
+  width: 80vw;
   border-radius: 10px;
 }
 
