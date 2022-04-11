@@ -97,7 +97,7 @@ body {
   border-radius: 50px;
 }
 
-@media (max-width: 375px) {
+@media (min-width:375px) and (max-width:850px){
   .container {
     display: block;
     margin-bottom: 50px;
