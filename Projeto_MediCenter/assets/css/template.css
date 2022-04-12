@@ -506,6 +506,10 @@ footer .widget_title_text {
     padding: 20px;
   }
 
+  .widget_title_text {
+    margin-top: 100px;
+  }
+
   .footer_menu,
   .footer_area {
     flex-direction: column;
