@@ -351,7 +351,6 @@ footer {
 .fm3 {
   flex: 1;
   color: #fff;
-
 }
 
 .fm1 {
@@ -438,10 +437,81 @@ footer .widget_title_text {
 .latest_posts_block,
 .latest_tweets_block {
   padding: 10px 0;
-  font-size: 13px ;
+  font-size: 13px;
 }
 
 .latest_posts_block a,
 .latest_tweets_block a {
   color: #0079c7;
+}
+
+.menuMobile {
+  display: none;
+  width: 40px;
+  height: 40px;
+  margin: 40px 20px 40px 0;
+}
+
+.mn_line {
+  height: 3px;
+  background: #39aae1 ;
+}
+
+@media (max-width: 700px) {
+  header .container {
+    flex-direction: row;
+  }
+
+  .menuMobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  nav ul {
+    flex-direction: column;
+    display: none;
+  }
+
+  header {
+    height: auto;
+  }
+  .logo {
+    padding-left: 20px;
+  }
+
+  .banner_headline {
+    padding: 20px;
+  }
+
+  .banner_headline h1 {
+    font-size: 55px;
+  }
+
+  .banner_headline h2 {
+    font-size: 17px;
+  }
+
+  .banner_options {
+    height: auto;
+    flex-direction: column;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  #geral section,
+  #geral aside {
+    padding: 20px;
+  }
+
+  .footer_menu,
+  .footer_area {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .footer_copy {
+    padding-left: 20px;
+  }
 }
