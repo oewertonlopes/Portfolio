@@ -454,7 +454,7 @@ footer .widget_title_text {
 
 .mn_line {
   height: 3px;
-  background: #39aae1 ;
+  background: #39aae1;
 }
 
 @media (max-width: 700px) {
@@ -471,6 +471,10 @@ footer .widget_title_text {
   nav ul {
     flex-direction: column;
     display: none;
+    position: absolute;
+    right: 0;
+    width: 100%;
+    background: #fff;
   }
 
   header {
