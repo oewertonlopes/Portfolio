@@ -32,7 +32,7 @@ Desafio criado através do site <a href="https://www.b7web.com.br"> B7Web </a>
 Utilizei os conhecimentos adquiridos atá agora na criação deste projeto.
 Este é até agora o maior desafio já feito por mim.
 Muito do código escrito foi feito por mim, algumas partes estão comentadas porque fiz antes e depois vi a solução do desafio.
-PROJETO EM ANDAMENTO!
+
 <a href="https://oewertonlopes.github.io/Portfolio/Projeto_MediCenter/index.html"> O resultado foi este aqui.</a>.
 
 Sexto item do meu portfólio:
@@ -43,4 +43,9 @@ Utilizei os conhecimentos adquiridos até agora na criação deste projeto.
 
 
 
+Sétimo item do meu portfólio:
 
+Desafio criado através do site <a href="https://www.b7web.com.br"> B7Web </a>
+Utilizei os conhecimentos adquiridos atá agora na criação deste projeto.
+Uma pequena homenagem ao criador dos Peanuts.
+<a href="https://oewertonlopes.github.io/Portfolio/Projeto_Homenagem/index.html"> O resultado foi este aqui.</a>.
