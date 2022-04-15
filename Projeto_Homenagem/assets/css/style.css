@@ -1,0 +1,184 @@
+@charset "utf-8";
+@import url("https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap");
+/*font-family: 'Rock Salt', cursive;*/
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background: #ffee64;
+  font-family: "Rock Salt", cursive;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.title_penauts {
+  min-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.title_penauts h1 {
+  font-size: 4rem;
+  margin: 1.5rem 0;
+}
+
+.title_penauts h2 {
+  font-size: 1rem;
+  margin-bottom: 1.2rem;
+}
+
+.title_penauts img {
+  width: 46rem;
+  border-radius: 0.6rem;
+  border: 1px dashed black;
+}
+
+.title_penauts p {
+  margin-bottom: 1rem;
+}
+
+.timeline_penauts {
+  background: #2d2c2d;
+  margin: 0 1rem;
+  border-radius: 3.5rem;
+  border: 4px dashed black;
+  color: #f2f1f2;
+}
+.timeline_penauts h2 {
+  text-align: center;
+  margin: 2.5rem;
+}
+
+.timeline_penauts div {
+  display: flex;
+  margin: 0.75rem;
+}
+
+.timeline_penauts div img {
+  margin: 1rem auto;
+  min-width: 450px;
+  height: auto;
+}
+
+.timeline_penauts div ul li {
+  border-bottom: 2px dashed black;
+}
+
+.quote_penauts div {
+  border-radius: 50%;
+  background: #fff;
+  text-align: center;
+  height: 10rem;
+  margin: 30px;
+  border: 2px dashed black;
+}
+
+.quote_penauts div h3 {
+  font-size: 30px;
+  padding: 20px 20px 0 20px;
+}
+
+.quote_penauts div p {
+  font-size: 20px;
+}
+
+.link {
+  text-align: center;
+  font-size: 24px;
+}
+
+.link a {
+  color: #322f0e;
+}
+
+.link a:hover {
+  color: #fff;
+}
+
+footer {
+  background: #2d2c2d;
+  color: #f2f1f2;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+footer a {
+  color: #f2f1f2;
+}
+
+@media (max-width: 850px) {
+  .title_penauts {
+    min-width: 0;
+    padding: 0 10px;
+  }
+
+  .title_penauts h1 {
+    font-size: 1.8rem;
+  }
+
+  .title_penauts h2 {
+    line-height: 18px;
+  }
+
+  .title_penauts img {
+    width: 22rem;
+  }
+
+  .title_penauts p {
+    font-size: 1rem;
+    line-height: 18px;
+  }
+
+  .timeline_penauts {
+    margin: 10px;
+  }
+
+  .timeline_penauts h2 {
+    margin: 1rem;
+    font-size: 18px;
+  }
+
+  .timeline_penauts div {
+    display: block;
+  }
+
+  .timeline_penauts div ul li {
+    font-size: 13px;
+    letter-spacing: 1px;
+  }
+
+  .timeline_penauts div img {
+    min-width: 0;
+    width: 20rem;
+    margin: 0 auto;
+  }
+
+  .quote_penauts div {
+    margin: 10px;
+  }
+
+  .quote_penauts div h3 {
+    font-size: 1rem;
+    padding: 25px 20px 0 20px
+  }
+
+  .quote_penauts div p {
+    font-size: 14px;
+  }
+
+  .link {
+    font-size: 1rem;
+  }
+
+  footer {
+    font-size: 1rem;
+  }
+}
