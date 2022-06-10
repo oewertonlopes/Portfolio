@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora IMC</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <form id="formulario">
+    <fieldset>
+      <img src="IMC.jpg" alt="">
+      <legend>Calculadora IMC</legend>
+      <label for="kilos">Peso em KG:</label>
+      <input type="number" name="kilo" min="1" max="700" required>
+      <label for="metros">Altura em Metros:</label>
+      <input type="number" name="metro" min="1" max="2" required>
+      <label for="centimetros">Centímetros:</label>
+      <input type="number" name="centimetro" min="0" max="99" required>
+      <input class="btn" onclick="calcular()" value="Calcular" readonly>
+
+      <div class="resultado">
+        <div class="divisao">
+          <div class="resultado_imc">
+            <label class="info_bloqueado" for="imc">Seu IMC é:</label>
+            <input class="bloqueado" type="text" readonly>
+          </div>
+          <div class="valor_imc">
+            <label for="imc">Sua Classificação é:</label>
+            <input class="valor_imc_classificacao" type="text" readonly>
+          </div>
+        </div>
+        <img class="img_valor_imc" src="grafico-imc.webp" alt="">
+      </div>
+
+    </fieldset>
+  </form>
+  <script src="js.js"></script>
+</body>
+
+</html>
