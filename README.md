@@ -59,3 +59,7 @@ Pensei neste desafio para calcular o meu IMC, existem algumas melhorias que irei
 Segui o passo a passo na criação deste desafio.
 
 <a href="https://oewertonlopes.github.io/Portfolio/AutoCompletarEndereco/index.html"> Tutorial Seguido do Canal hora de codar.</a>.
+
+Projeto Awax
+
+<a href="https://oewertonlopes.github.io/Portfolio/projeto_awax/index.html"> Projeto criado seguindo os ensinamentos do site b7web.</a>.
