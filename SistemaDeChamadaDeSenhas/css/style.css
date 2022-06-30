@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 50px;
+  background: blue;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  height: 80vh;
+  display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.senha {
+  padding: 30px;
+  border: 2px solid blue;
+  border-radius: 40px;
+  background: grey;
+  color: white;
+  font-size: 48px;
+  min-width: 300px;
+}
+
+.senha h2 {
+  text-align: center;
+}
+
+#senha {
+  border: 1px solid black;
+  border-radius: 30px;
+  padding: 20px;
+  background: blue;
+  text-align: center;
+}
