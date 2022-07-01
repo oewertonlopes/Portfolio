@@ -1,0 +1,21 @@
+.barra {
+  width: 300px;
+  height: 20px;
+  border-radius: 10px;
+  background: #ccc;
+}
+
+.progresso {
+  height: 100%;
+  border-radius: 10px;
+  background: #222;
+  transition: all 300ms;
+}
+
+.carregamento {
+  width: 60%;
+}
+
+input {
+  margin-top: 50px ;
+}
