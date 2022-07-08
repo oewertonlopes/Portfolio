@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To Do</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <div id="tasks-container">
+
+    <div id="tasks-header">
+      <h2>Salve a sua próxima tarefa:</h2>
+      <form action="" id="add-task-form">
+        <input type="text" id="task-title" placeholder="O  que você vai fazer?">
+        <button type="submit" id="add-btn">
+          +
+        </button>
+      </form>
+
+    </div>
+
+    <div id="tasks-list-container">
+      <h2>Estas são as suas tarefas:</h2>
+      <ul id="task-list">
+        <li class="task-box">
+          <div class="task-box-span"><span class="task-title">TESTE</span></div>
+          <div class="task-box-icon">
+            <ion-icon class="done-btn" name="checkmark-outline"></ion-icon>
+            <ion-icon class="remove-btn" name="close-outline"></ion-icon>
+          </div>
+        </li>
+        <li class="task-box">
+          <div class="task-box-span"><span class="task-title">TESTE 1</span></div>
+          <div class="task-box-icon">
+            <ion-icon class="done-btn" name="checkmark-outline"></ion-icon>
+            <ion-icon class="remove-btn" name="close-outline"></ion-icon>
+          </div>
+        </li>
+        <li class="task-box">
+          <div class="task-box-span"><span class="task-title">TESTE 2</span></div>
+          <div class="task-box-icon">
+            <ion-icon class="done-btn" name="checkmark-outline"></ion-icon>
+            <ion-icon class="remove-btn" name="close-outline"></ion-icon>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
