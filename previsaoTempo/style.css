@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: #ccc;
+  font-family: monospace;
+  font-size: 0.85rem;
+}
+
+div {
+  display: block;
+  padding: 10px;
+  align-self: center;
+  background: #eee;
+}
+
+div label {
+  display: flex;
+  padding: 5px 0;
+}
+
+button {
+  display: block;
+  margin-top: 25px;
+  cursor: pointer;
+  border-radius: 4px;
+  border: 1px solid #000;
+}
+
+button:hover {
+  background: #bbb;
+  border: 1px solid black;
+}
