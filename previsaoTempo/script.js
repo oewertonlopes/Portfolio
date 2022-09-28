@@ -17,9 +17,13 @@ function setCidadeEstado(valorCidade) {
     `https://weather.contrateumdev.com.br/api/weather/city/?city=${valorCidade}`
   ).then((r) =>
     r.json().then((b) => {
-      cidadePesquisada.innerText = "Temperatura em " + b.name;
-      temperatura.innerText = b.main.temp + " graus.";
-      descricao.innerText = b.weather[0].description + ".";
+      if (b.name === undefined) {
+        temperatura.innerText = 'Cidade não encontrada. Por favor, verifique os dados informados.'
+      } else {
+        cidadePesquisada.innerText = "Temperatura em " + b.name;
+        temperatura.innerText = b.main.temp + " graus.";
+        descricao.innerText = b.weather[0].description + ".";
+      }
     })
   );
 }
