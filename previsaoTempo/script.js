@@ -18,7 +18,10 @@ function setCidadeEstado(valorCidade) {
   ).then((r) =>
     r.json().then((b) => {
       if (b.name === undefined) {
-        temperatura.innerText = 'Cidade não encontrada. Por favor, verifique os dados informados.'
+        cidadePesquisada.innerText = "";
+        temperatura.innerText =
+          "Cidade não encontrada. Por favor, verifique os dados informados.";
+        descricao.innerText = "";
       } else {
         cidadePesquisada.innerText = "Temperatura em " + b.name;
         temperatura.innerText = b.main.temp + " graus.";
