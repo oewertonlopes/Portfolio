@@ -21,5 +21,4 @@ GITPAGES:
 <p><a target="_blank" href="https://oewertonlopes.github.io/Portfolio/qr-code-component-main/index.html">Desafio Frontend Mentor: qr-code-component-main</a></p>
 <p><a target="_blank" href="https://oewertonlopes.github.io/Portfolio/stats-preview-card-component-main/index.html">Desafio Frontend Mentor:  stats-preview-card-component-main</a></p>
 <p><a target="_blank" href="https://oewertonlopes.github.io/Portfolio/tabelaPreco/index.html">tabelaPreco</a></p>
-<p><a target="_blank" href="https://oewertonlopes.github.io/Portfolio/Bolo/index.html">Site Simples '_Amanda_Cakes_</a></p>
-
+<p><a target="_blank" href="https://oewertonlopes.github.io/Portfolio/Bolo/index.html"> Site Simples '_Amanda_Cakes_</a></p>
