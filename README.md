@@ -1,6 +1,6 @@
 # Portfolio
 <p>Link para o GitPages dos projetos criados por mim ao longo dos meus estudos.</p>
-.
+
 
 GITPAGES:
 
