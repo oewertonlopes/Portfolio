@@ -137,7 +137,7 @@ header nav a.active::after {
 }
 
 /* Estilos para tamanhos de tela maiores */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 800px) {
   .menu-icon {
     display: none;
   }
@@ -150,7 +150,7 @@ header nav a.active::after {
 }
 
 /* Estilos para tamanhos de tela menores */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   section {
     font-size: 4em;
   }
