@@ -14,3 +14,17 @@ window.onscroll = () => {
     }
   });
 };
+
+// Seletor do menu hamburguer
+const menuCheckbox = document.querySelector("#menu-toggle");
+
+// Seletor de todos os links do menu
+const menuLinks = document.querySelectorAll("nav a");
+
+// Adiciona o evento de clique a cada link do menu
+menuLinks.forEach((link) => {
+  link.addEventListener("click", () => {
+    // Desmarca a caixa de seleção do menu hamburguer para fechá-lo
+    menuCheckbox.checked = false;
+  });
+});

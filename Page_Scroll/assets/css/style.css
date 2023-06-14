@@ -48,6 +48,50 @@ header {
   text-decoration: none;
 }
 
+.menu-icon {
+  color: #fff;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  background: #333;
+  position: fixed;
+  top: 70px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: transform 0.3s ease-in-out;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 12px 20px;
+  color: #fff;
+  font-weight: 500;
+}
+
+nav a.active {
+  background: var(--clr);
+  color: #333;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"]:checked + label + nav {
+  transform: scaleY(1);
+}
+
 header nav {
   display: flex;
   gap: 10px;
@@ -90,4 +134,64 @@ header nav a.active::after {
   background: transparent;
   border-bottom-left-radius: 20px;
   box-shadow: -5px 5px 0 5px var(--clr);
+}
+
+/* Estilos para tamanhos de tela maiores */
+@media screen and (min-width: 768px) {
+  .menu-icon {
+    display: none;
+  }
+
+  nav {
+    position: static;
+    transform: scaleY(1);
+    flex-direction: row;
+  }
+}
+
+/* Estilos para tamanhos de tela menores */
+@media screen and (max-width: 768px) {
+  section {
+    font-size: 4em;
+  }
+
+  header {
+    padding: 10px;
+  }
+
+  .logo {
+    font-size: 1.5em;
+  }
+
+  header nav {
+    flex-direction: column;
+    gap: 5px;
+    align-items: end;
+  }
+
+  header nav a.active {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    margin:0 5px;
+    margin-top: 2px;
+  }
+
+  header nav a.active::before {
+    left: 0px;
+    width: 0px;
+    height: 0px;
+    border-bottom-right-radius: 0px;
+    box-shadow: 0px 0px 0 0px var(--clr);
+  }
+
+  header nav a.active::after {
+    right: 0px;
+    bottom: 0;
+    width: 0px;
+    height: 0px;
+    border-bottom-left-radius: 0px;
+    box-shadow: 0px 0px 0 0px var(--clr);
+  }
+
+  /* Adicione mais regras de estilo conforme necessário para acomodar dispositivos menores */
 }
