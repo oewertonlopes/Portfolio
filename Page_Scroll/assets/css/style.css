@@ -193,5 +193,4 @@ header nav a.active::after {
     box-shadow: 0px 0px 0 0px var(--clr);
   }
 
-  /* Adicione mais regras de estilo conforme necessário para acomodar dispositivos menores */
 }
