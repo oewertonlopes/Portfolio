@@ -1,6 +1,9 @@
 const progresso = document.querySelector(".progresso");
 const input = document.querySelector("input");
+const numero = document.querySelector(".numero");
+
 const alterarProgresso = () => {
-  //progresso.classList.add("carregamento");
-  progresso.setAttribute("style", "width: " + input.value + "%");
+  const valor = input.value;
+  progresso.setAttribute("style", "width: " + valor + "%");
+  numero.textContent = valor;
 };
